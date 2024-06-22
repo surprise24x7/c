@@ -38,12 +38,32 @@
     position: relative;
     z-index: 3;
 }
+.ln, .ln-inner, .ln-top {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: -webkit-fill-available;
+    min-height: 50vh;
+    position: relative;
+    width: 100%;
+} 
 @media (min-width: 768px) {
     .ln-header-center {
         flex: 1;
     }
+    .ln, .ln-inner, .ln-top {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: -webkit-fill-available;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}  
 }
-        
+     
         </style>
 </head>
 
@@ -125,18 +145,17 @@
                          
                            
                                                
-                             <div id="claim">
-                               <div class="title1">
-                         </div>
-                         <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
+                             <span id="claim">
+                             
+                         <span class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                                     
-                         
-                                                     </div>
+                            <div class="share_main_bt" id="offer">Continue</div>
+                                                     </span>
                         
-                               <div class="share_main_bt" id="offer">Continue</div>
+                             
                                                      
                     
-                                </div>
+                                </span>
                                </div>
                     </div>
                     <div class="ln-bottom"></div>
