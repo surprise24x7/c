@@ -43,9 +43,6 @@
     .ln-header-center {
         flex: 1;
     }
-  
-
-}
 }
 .ln, .ln-inner, .ln-top {
     align-items: stretch;
@@ -111,7 +108,7 @@
                         <h1>Step 2</h1>
                        
                         <p>Share about our platform on WhatsApp with 20 friends by clicking the "WhatsApp" button below to continue.</p>
-                        <div id="share">
+                        <div id="share"  class="bottom">
     
    
     
@@ -447,16 +444,17 @@ $("#offerss").click(function () {
             .swal2-actions {
                 padding: 0 !important;
             }
-            div#share {
-    width: 300px;
+
+.bottom {
+    width: 92%;
+    margin: 20px auto 0;
+   
+    padding: 5px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
-            @media (min-width: 768px) {
-    
-  
-    div#share {
-    width: 1000px;
-}
-}
+
             </style>
  <script>
     function GGCC() {
