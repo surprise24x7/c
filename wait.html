@@ -1,0 +1,311 @@
+<html style="--tg-viewport-height: 100vh; --tg-viewport-stable-height: 100vh;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hamster Kombat</title>
+    <meta name="imagetoolbar" content="no">
+    <meta name="google" content="notranslate">
+    <meta name="theme-color" content="#000000">
+    <meta name="cleartype" content="on">
+    <meta name="HandheldFriendly" content="True">
+    <meta content='noindex,follow' name='googlebot' />
+    <meta content='noindex,nofollow,noodp,noydir' name='robots' />
+    <link rel="stylesheet" href="_nuxt/entry.CBje6SOX.css">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <title>Wait</title>
+    <meta content='noindex,follow' name='googlebot' />
+    <meta content='noindex,nofollow,noodp,noydir' name='robots' />
+    <meta property="og:title" content="Hamster Kombat">
+    <meta name="description" content="Make your way from the shaved hamster to the grandmaster CEO of the tier-1 crypto exchange">
+    <meta property="og:description" content="Make your way from the shaved hamster to the grandmaster CEO of the tier-1 crypto exchange">
+    <meta property="og:image" content="https://hamsterkombat.io/images/icons/hamster-coin.png">
+    <style>
+       .hide,.button,.ln-header-social{
+            display: none;
+        }
+        #dlbox {
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+    clear: both;
+    position: relative;
+    height: auto;
+    width: 95%;
+    max-width: 460px;
+}
+         #dlbox h4 {
+         font-size:20px;
+         font-family: sans-serif;
+         padding:10px;
+         text-align:center;
+         height:auto;
+         margin: auto;
+         }
+         .base-timer {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: #1cab00;
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+@media (min-width: 768px) {
+    .ln-header-center {
+        flex: 1;
+    }
+}
+        </style>
+</head>
+
+<body>
+    <div id="__nuxt" data-v-app="">
+        <main class="ln">
+            <div class="ln-inner">
+                <div class="ln-top">
+                    <div class="ln-header">
+                        <div class="ln-header-left">
+                            <div class="ln-header-social">
+                                <a class="is-x" href="https://twitter.com/hamster_kombat" target="_blank" title="X">
+                                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 20 20"><path fill="currentColor" d="M15.8.9h3.1l-6.7 7.7L20 19.1h-6.2L9 12.7 3.5 19H.4l7.2-8.2L0 .9h6.3l4.4 5.8L15.8.9zm-1.1 16.3h1.7L5.4 2.7H3.6l11.1 14.5z"></path></svg></div>
+                                </a>
+                                <a class="is-telegram" href="https://t.me/hamster_kombat" target="_blank" title="Telegram official channel">
+                                    <div class="icon"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M27.6132 4.873C27.6132 4.873 30.2032 3.863 29.9866 6.31567C29.9152 7.32567 29.2679 10.861 28.7639 14.6843L27.0372 26.011C27.0372 26.011 26.8932 27.6703 25.5979 27.959C24.3032 28.247 22.3606 26.949 22.0006 26.6603C21.7126 26.4437 16.6046 23.197 14.8059 21.6103C14.3019 21.177 13.7259 20.3117 14.8779 19.3017L22.4319 12.087C23.2952 11.2217 24.1586 9.20167 20.5612 11.6543L10.4879 18.5077C10.4879 18.5077 9.33655 19.2297 7.17855 18.5803L2.50122 17.137C2.50122 17.137 0.774553 16.055 3.72455 14.973C10.9199 11.5823 19.7699 8.11967 27.6119 4.873H27.6132Z" fill="currentColor"></path>
+    </svg>
+                                    </div>
+                                </a>
+                                <p>Join us!</p>
+                            </div>
+                        </div>
+                        <div class="ln-header-center">
+                            <div class="ln-header-center-logo">
+                                <picture class="is-token">
+                                    <source srcset="hamster-coin.webp" type="image/webp" alt="Hamster Kombat"><img class="img-responsive" src="hamster-coin.webp" alt="Hamster Kombat"></picture>
+                            </div>
+                            <p>Sale Hamster Coin</p>
+                        </div>
+              
+                    </div>
+                    <div class="ln-content">
+                        <div class="ln-content-hamster">
+                            <div class="ln-content-hamster-image is-1">
+                                <picture class="is-hamster-image is-level-6">
+                                 <img class="img-responsive" src="6.png" alt="Hamster Kombat"></picture>
+                            </div>
+                            <div class="ln-content-hamster-image is-2">
+                                <picture class="is-hamster-image is-level-2">
+  <img class="img-responsive" src="2.png" alt="Hamster Kombat"></picture>
+                            </div>
+                            <div class="ln-content-hamster-image is-3">
+                                <picture class="is-hamster-image is-level-9">
+<img class="img-responsive" src="9.png" alt="Hamster Kombat"></picture>
+                            </div>
+                            <div class="ln-content-hamster-image is-4">
+                                <picture class="is-hamster-image is-level-7">
+<img class="img-responsive" src="7.png" alt="Hamster Kombat"></picture>
+                            </div>
+                        </div>
+                        <h1>Wait, you are on the waiting list.</h1>
+                       
+                        <div id="dlbox" >
+                            <h4>Please wait for...</h4>
+                   
+                   
+                   <center>
+                   <br/>
+                   
+                       <div id="app"></div>
+         
+
+                       <div class="ln-content-button"><a class="button" href="https://t.me/hamster_kombat_bot" target="_blank"><span>Next</span></a></div>
+
+                   
+                  </center>
+                   
+                    </div>
+                    <div class="ln-bottom"></div>
+                </div>
+                
+                        </div>
+                    </div>
+                </div>
+                <div class="ln-footer">
+        
+                     
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+    
+
+        const FULL_DASH_ARRAY = 283;
+        const WARNING_THRESHOLD = 10;
+        const ALERT_THRESHOLD = 5;
+        
+        const COLOR_CODES = {
+          info: {
+            color: "green"
+          },
+          warning: {
+            color: "orange",
+            threshold: WARNING_THRESHOLD
+          },
+          alert: {
+            color: "red",
+            threshold: ALERT_THRESHOLD
+          }
+        };
+        
+        const TIME_LIMIT = 30;
+        let timePassed = 0;
+        let timeLeft = TIME_LIMIT;
+        let timerInterval = null;
+        let remainingPathColor = COLOR_CODES.info.color;
+        
+        document.getElementById("app").innerHTML = `
+        <div class="base-timer">
+          <svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <g class="base-timer__circle">
+              <circle class="base-timer__path-elapsed" cx="50" cy="50" r="45"></circle>
+              <path
+                id="base-timer-path-remaining"
+                stroke-dasharray="283"
+                class="base-timer__path-remaining ${remainingPathColor}"
+                d="
+                  M 50, 50
+                  m -45, 0
+                  a 45,45 0 1,0 90,0
+                  a 45,45 0 1,0 -90,0
+                "
+              ></path>
+            </g>
+          </svg>
+          <span id="base-timer-label" class="base-timer__label">${formatTime(
+            timeLeft
+          )}</span>
+        </div>
+        `;
+        
+        startTimer();
+        
+        function onTimesUp() {
+          clearInterval(timerInterval);
+        }
+        
+        function startTimer() {
+          timerInterval = setInterval(() => {
+            timePassed = timePassed += 1;
+            timeLeft = TIME_LIMIT - timePassed;
+            document.getElementById("base-timer-label").innerHTML = formatTime(
+              timeLeft
+            );
+            setCircleDasharray();
+            setRemainingPathColor(timeLeft);
+        
+            if (timeLeft === 0) {
+              onTimesUp();
+            }
+          }, 1000);
+        }
+        
+        function formatTime(time) {
+          const minutes = Math.floor(time / 60);
+          let seconds = time % 60;
+        
+          if (seconds < 10) {
+            seconds = `0${seconds}`;
+          }
+        
+          return `${minutes}:${seconds}`;
+        }
+        
+        function setRemainingPathColor(timeLeft) {
+          const { alert, warning, info } = COLOR_CODES;
+          if (timeLeft <= alert.threshold) {
+            document
+              .getElementById("base-timer-path-remaining")
+              .classList.remove(warning.color);
+            document
+              .getElementById("base-timer-path-remaining")
+              .classList.add(alert.color);
+          } else if (timeLeft <= warning.threshold) {
+            document
+              .getElementById("base-timer-path-remaining")
+              .classList.remove(info.color);
+            document
+              .getElementById("base-timer-path-remaining")
+              .classList.add(warning.color);
+          }
+        }
+        
+        function calculateTimeFraction() {
+          const rawTimeFraction = timeLeft / TIME_LIMIT;
+          return rawTimeFraction - (1 / TIME_LIMIT) * (1 - rawTimeFraction);
+        }
+        
+        function setCircleDasharray() {
+          const circleDasharray = `${(
+            calculateTimeFraction() * FULL_DASH_ARRAY
+          ).toFixed(0)} 283`;
+          document
+            .getElementById("base-timer-path-remaining")
+            .setAttribute("stroke-dasharray", circleDasharray);
+        }
+        
+        
+        $(function() {
+        setTimeout(function() { $("#app").hide(); }, 30000)
+        
+        })
+        
+        $('.button').hide(0).delay(30000).show(0);   
+        
+        
+                </script>
+</html>
